@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                
-                 bat 'eyal.py'
+                                 bat 'eyal.py'
             }
         }
     }
