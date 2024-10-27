@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                  bat 'eyal.py'
-                bat.click.py
+                bat 'click.py'
             }
         }
     }
